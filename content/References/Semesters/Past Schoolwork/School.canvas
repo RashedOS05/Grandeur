@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{
+			"id":"9fc9bff81204e9c7",
+			"type":"file",
+			"file":"References/Semesters/Past Schoolwork/School Remaining Tasks.md",
+			"styleAttributes":{},
+			"x":-250,
+			"y":-640,
+			"width":440,
+			"height":560
+		},
+		{
+			"id":"bac4405ad5d5368d",
+			"type":"text",
+			"text":"### Limits and Continuity:\n\n- [x] **2.2 HW: Limit of a Function and Limit Laws**\n- [ ] **2.4 HW One-Sided Limits**\n- [ ] **HW Limits Involving Infinity; Asymptotes of Graphs**\n- [ ]  **2.6 HW Continuity**\n\n---\n### Differentiation:\n\n- [ ] **3.1 Tangent Lines and the Derivative at a Point**\n- [ ] **Homework 3.3 HW Differentiation Rules**\n- [ ] **Homework 3.5 Derivatives of Trigonometric Functions**\n- [ ] **Homework 3.6 The Chain Rule**\n- [ ] **Homework 3.7 Implicit Differentiation**\n- [ ] **Homework 3.8 Derivatives of Inverse Functions and Logarithms**\n- [ ] **Homework 3.9 Inverse Trigonometric Functions**\n---\n### Applications of Derivatives:\n\n- [ ] **Homework 4.1 Extreme Values of Functions on Closed Intervals**\n- [ ] **Homework 4.3 Monotonic Functions and the First Derivative Test**\n- [ ] **Homework 4.4 Concavity and Curve Sketching**\n- [ ] **Homework 4.5 Indeterminate Forms and L'Hopital's Rule**\n---\n### Integration:\n\n- [ ] **Homework 4.8 Antiderivatives** ✅ 2024-12-27\n- [ ] **Homework 5.4 The Fundamental Theorem of Calculus**\n- [ ] **Homework 5.5 Indefinite Integrals and the Substitution Method**",
+			"styleAttributes":{},
+			"x":1120,
+			"y":-80,
+			"width":573,
+			"height":520,
+			"color":"6"
+		},
+		{
+			"id":"bd928cdd8572c679",
+			"type":"file",
+			"file":"References/Semesters/Past Schoolwork/Math Practice Sheet.pdf",
+			"subpath":"#page=1",
+			"styleAttributes":{},
+			"x":627,
+			"y":-720,
+			"width":780,
+			"height":520
+		}
+	],
+	"edges":[
+		{"id":"0ecdbf22a1da3412","fromNode":"9fc9bff81204e9c7","fromSide":"right","toNode":"bd928cdd8572c679","toSide":"left"},
+		{"id":"9eda915ab430e7e8","fromNode":"bd928cdd8572c679","fromSide":"bottom","toNode":"bac4405ad5d5368d","toSide":"top"}
+	],
+	"metadata":{}
+}
