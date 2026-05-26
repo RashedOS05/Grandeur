@@ -1,0 +1,28 @@
+model:
+  version: 1
+  kind: Table
+  columns: []
+pluginVersion: 1.0.0
+formulas:
+  Untitled: |
+    if(date_started, if(date_completed, date_started + " → " + date_completed, "Started " + date_started), "")
+properties:
+  formula.Untitled:
+    displayName: Date
+views:
+  - type: cards
+    name: Anime
+    filters:
+      and:
+        - file.inFolder("Hobbies/Anime")
+        - file.hasProperty("cover")
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - title
+      - score
+      - formula.Untitled
+      - episodes_watched
+    cardSize: 350
+    image: note.cover
